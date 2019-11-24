@@ -6,7 +6,7 @@ import pymongo
 
 #CONFIGURÇÕES MONGODB
 #Conecta ao server do MongoDB
-client = pymongo.MongoClient("mongodb://b00tk1ll:b00tk1ll22031998@peixe-shard-00-00-bt4m7.gcp.mongodb.net:27017,peixe-shard-00-01-bt4m7.gcp.mongodb.net:27017,peixe-shard-00-02-bt4m7.gcp.mongodb.net:27017/test?ssl=true&replicaSet=peixe-shard-0&authSource=admin&retryWrites=true&w=majority")
+client = pymongo.MongoClient("")
 #Seleciona o banco
 db = client.peixe
 #Seleciona a colection HW
