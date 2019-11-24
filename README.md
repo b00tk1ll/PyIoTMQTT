@@ -13,7 +13,7 @@ O código python se conecta ao broker MQTT local(a Rasp), Recebe as informaçõe
 
 Para mim o mais importante esse código pode receber informações, calcular e atuar N placas bastando só adicionar as informações do cálculo na lista da sua respectiva variável, retirando qualquer processamento 'bruto' da ESP8266. Ou seja eu posso adicionar N placas a rede que meu código pode gerenciar isso.
 
-Os próximos passos é criar um riar o APP e mais para frente adicionar uma IA e ML para realmente ser um alimentador inteligente.
+Os próximos passos é criar um APP e mais para frente adicionar uma IA e ML para realmente ser um alimentador inteligente.
 
 ### Instalação
 Em breve...
