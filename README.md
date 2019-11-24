@@ -5,7 +5,7 @@ Controle dispositivos IoT utilizando Python e MQTT
 
 Esse projeto nasceu com intuito de estudo, esse é meu primeiro projeto em python.
 
-Antes esse mesmo projeto de alimentador inteligente foi executado utilizando comunicação da ESP8266 com o firebase. Onde o usuário por um APP entrava com Hora inicial e Final, quantas alimentações seriam feitas nesse período e o tempo dessa alimentação. Cada ESP8266 lia seus respectivos dados, pegava a hora atual via NTP, calculava a hora que teria que acionar e ligava e desligava nos horários "automagicamente". Porém por ser um dispositivos para área rural teve a necessidade de funcionar offline.
+Antes, esse mesmo projeto de alimentador inteligente foi executado utilizando comunicação da ESP8266 com o firebase. Onde o usuário por um APP entrava com Hora inicial e Final, quantas alimentações seriam feitas nesse período e o tempo dessa alimentação. Cada ESP8266 lia seus respectivos dados, pegava a hora atual via NTP, calculava a hora que teria que acionar e ligava e desligava nos horários "automagicamente". Porém por ser um dispositivos para área rural teve a necessidade de funcionar offline.
 
 Então peguei uma raspberry para ser um server local, ela tem um server MQTT(Mosquitto), a ESP8266 da um publish desses dados em um tópico único para cada ESP8266(exemplo tk0/temp e tk1/temp) temperatura e comida e subscreve um tópico "motor" onde se chegar "L" liga "D" desliga.
 
