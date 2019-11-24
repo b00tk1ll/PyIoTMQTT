@@ -13,13 +13,13 @@ O código python se conecta ao broker MQTT local(a Rasp), Recebe as informaçõe
 
 Para mim o mais importante esse código pode receber informações, calcular e atuar N placas bastando só adicionar as informações do cálculo na lista da sua respectiva variável, retirando qualquer processamento 'bruto' da ESP8266. Ou seja eu posso adicionar N placas a rede que meu código pode gerenciar isso.
 
-Os próximos passos são add um DB, criar o APP e mais para frente adicionar uma IA e ML para realmente ser um alimentador inteligente.
+Os próximos passos é criar um riar o APP e mais para frente adicionar uma IA e ML para realmente ser um alimentador inteligente.
 
 ### Instalação
 Em breve...
 
 ### Contribua
-1. Fork it (<https://github.com/b00tk1ll/samusci/fork>)
+1. Fork it (<https://github.com/b00tk1ll/PyIoTMQTT/fork>)
 2. Crie uma feature branch (`git checkout -b feature/branch-name`)
 3. Commit suas alterações (`git commit -m 'Add some features'`)
 4. Push para a branch (`git push origin feature/branch-name`)
